@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Find your Recipe</title>
+</head>
+<body class="bg-gradient-to-b from-lime-50 to-blue-950 bg-fixed scroll-smooth mb-5"> 
+    <div class="navbar flex justify-between w-full min-h-20 bg-gradient-to-r from-blue-100 to-blue-900 border-b-4 border-blue-950 border-double border-l-4">
+        <div class="heading">
+            <a href="#"><h2 class="font-bold text-5xl px-5 py-3 font-sans text-blue-950 cursor-pointer">RECIPE APP</h2></a>
+        </div>
+        <div class="search flex justify-center content-center py-2 px-10 gap-2">
+            <input type="text" class="searchbox border-black border-4 border-double text-xl rounded-md px-1 w-64 cursor-text shadow-sm shadow-black" placeholder="Search for Recipes...">
+            <button class="button border-2  border-solid text-white border-blue-100 shadow-md shadow-black font-bold text-xl rounded-md bg-blue-800 px-3 cursor-pointer">Search</button>
+        </div>
+    </div>
+    
+    <div class="content flex flex-col content-center justify-center px-10 w-full">
+        <div class="head my-5 text-center"> 
+            <h1 class=" intro text-4xl">Search for your Favourite Recipes...</h1>
+        </div>
+        <div class="flex flex-col justify-center items-center content-center pl-16">
+            <div class="image grid grid-cols-3 gap-6 content-center justify-center w-11/12 "></div>  
+        </div>
+    </div>
+    
+    <div class="flex flex-row justify-center items-center content-center py-10 fixed my-10">
+        <div class="pop fixed top-0 left-0 w-full h-full bg-black bg-opacity-70 hidden ">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
